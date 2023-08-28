@@ -54,24 +54,104 @@ li a{
     transition: all .5s ease-in-out;
     margin-left: 20px;
 }
-#content .btns button:last-child:hover{
-    /* transform: rotate(360deg); */
-    /* transform: skew(20deg); */
-    /* transform: translateX(50px); */
-    transform: scale(1.1);
-    background-color: #0c7c73;
+
+/* end */
+
+#key-features
+{
+    display: flex;
+    margin: 0px 50px;
 }
-.btns{
+
+#key-features .container
+{
+    background-color: #00ab9f;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
+#key-features .container1
+{
+    background-color: #05867d;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.content
+{
+    display: flex;
+
+}
+
+.content i{
+    font-size: 26px;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.content h5{
+    font-size: 20px;
+}
+
+/* end */
+
+.wat-we-do
+{
+    padding: 50px 10px;
+    background-color: #FFF;
+}
+
+.title-row
+{
+    padding: 30px;
+    margin: 10px 60px;
+}
+
+.title-row h2{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title-row p{
+    text-align: center;
+    /* font-size: 16px; */
+}
+.row
+{
     display: flex;
 }
-#content .btns button:first-child{
-    display: flex;
+
+.internal-row
+{
+    text-align: center;
+    padding: 10px;
 }
-#content .btns button:first-child span i{
-    display: none;
-    /* width: 100px; */
+
+.internal-row i{
+    color: #00ab9f;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
-#content .btns button:first-child:hover span i{
-    /* font-size: 20px; */
-    display: block;
+
+.internal-row p{
+margin-top: 10px;
+}
+
+.desic
+{
+    padding: 10px;
+    border-left: 5px solid #00ab9f;
+    padding-left: 15px;
+    margin-top: 90px;
+    font-size: 18px;
 }

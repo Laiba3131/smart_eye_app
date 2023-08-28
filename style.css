@@ -256,3 +256,160 @@ li a {
 
 /* Gallery section start */
 
+.gallery-btns
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+.gallery-btns button
+{
+    border: none;
+    border-color: #00ab9f ;
+    border-radius: 5px;
+    color: #00ab9f;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 12px 16px 0 rgba(105, 102, 102, 0.24),
+
+}
+
+.gallery-btns button:hover{
+    background-color: #00ab9f;
+    color: #FFF;
+}
+
+.gallery-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20PX;
+    justify-content: center;
+}
+
+.gallery-row .img-responsive
+{
+    margin-right: 15PX;
+    margin-top: 15PX;
+    height: 230px;
+    width: 230px;
+}
+
+/* end this one */
+
+.blog-cards
+{
+    width: 460px;
+    margin: 10px;
+}
+.blog-row
+{
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 250px;
+    /* width: 400px; */
+}
+
+.blog-img
+{
+    width: 40%;
+    height: 20px;
+}
+
+.blog-img img{
+    width: 160px;
+    height: 180px;
+}
+
+.blog-content
+{
+    width: 60%;
+    padding-left: 10px;
+}
+
+.blog-content h2{
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.blog-content p i{
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.blog-content p i small
+{
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.blog-desic
+{
+    margin-top: 8px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.blog-content a{
+    color: #00ab9f;
+    font-style: 12px;
+    text-decoration: none;
+    outline: none;
+}
+
+.blog-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* last section */
+
+.map-section
+{
+    display: flex;
+}
+.map-container
+{
+    width: 50%;
+}
+
+
+
+.form-container
+{
+    width: 50%;
+    padding: 30px;
+    display:flex;
+    align-items: center;
+}
+
+.map-container img{
+    height: 100vh;
+    width: 100%;
+}
+
+.form-row
+{
+    display: flex;
+    margin: 25px 0px;
+    
+   
+}
+
+form button
+{
+    background-color: #00ab9f;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}

@@ -160,6 +160,7 @@ li a {
 
 .key-features {
     padding: 50px 10px;
+    background-color: #f8f9fa;
 }
 
 .inner-title {
@@ -177,10 +178,16 @@ li a {
     text-align: center;
 }
 
+.row .our-services
+{
+    height: 250px;
+    width: 32%;
+    margin: 5px;
+}
+
 .row .our-services .single-key {
     background-color: #FFF;
     border-radius: 2px;
-    margin-bottom: 30px;
     text-align: center;
     padding: 30px;
 }
@@ -194,8 +201,58 @@ li a {
     border-radius: 50px;
 }
 
+.row .our-services .single-key h5{
+    font-size: 20px;
+}
+
 #services .row
 {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* end this section */
+
+.task-container
+{
+    background: url('./images/bg.webp') no-repeat center/cover;
+    height: 100vh;
+}
+
+.task-container .content-container
+{
+    width: 50%;
+    background-color: rgba(36, 28, 28, 0.471);
+    height: 100vh;
+    color: #FFF;
+    line-height: 1.2;
+    text-align:left;
+    padding: 50px 40px;
+}
+
+
+.task-container .content-container h4{
+    font-size: 25px;
+}
+
+
+.task-container .content-container p{
+    font-size: 18px;
+}
+.task-container .content-container li
+{
+    list-style: none;
+}
+.task-container .content-container li i{
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.task-container .right-container
+{
+    width: 50%;
+}
+
+/* Gallery section start */
+

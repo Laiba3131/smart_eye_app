@@ -380,6 +380,7 @@ li a {
 .map-container
 {
     width: 50%;
+    height: 100%;
 }
 
 
@@ -387,25 +388,25 @@ li a {
 .form-container
 {
     width: 50%;
-    padding: 30px;
+    /* height: 100%; */
+    padding: 0px 30px;
     display:flex;
     align-items: center;
-}
-
-.map-container img{
-    height: 100vh;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .form-row
 {
     display: flex;
-    margin: 25px 0px;
-    
-   
+    margin: 40px 0px;
 }
 
-form button
+.form-row .input
+{
+    padding-right: 15px;
+}
+
+.form button
 {
     background-color: #00ab9f;
     color: #FFF;
